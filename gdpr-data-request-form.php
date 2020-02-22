@@ -30,6 +30,13 @@ function gdpr_plugin_load_textdomain() {
 add_action( 'plugins_loaded', 'gdpr_plugin_load_textdomain' );
 
 
+// Load script translations
+function gdpr_script_translations() {
+	wp_localize_script( 'data-request-form', 'gdpr-data-request-form', false );
+}
+add_action( 'init', 'gdpr_script_translations' );
+
+
 /**
  * Public
  */
