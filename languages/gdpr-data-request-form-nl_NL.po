@@ -3,7 +3,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: GDPR Data Request Form\n"
 "POT-Creation-Date: 2020-02-22 13:09+0100\n"
-"PO-Revision-Date: 2020-02-22 13:16+0100\n"
+"PO-Revision-Date: 2020-02-22 18:51+0100\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,8 +26,8 @@ msgid ""
 "The request can’t be processed on this website. This feature requires "
 "WordPress 4.9.6 at least."
 msgstr ""
-"De aanvraag kan niet worden verwerkt op deze website. Voor deze functie is "
-"minstens WordPress 4.9.6 vereist."
+"De plugin is niet geinstalleerd. Om GDPR Gegevens Formulier te installeren "
+"is minstens WordPress 4.9.6 vereist."
 
 #: data-request.php:30 includes/data-request.php:30
 msgid ""
@@ -43,16 +43,14 @@ msgstr "Dit is geen geldig e-mailadres."
 
 #: data-request.php:36 includes/data-request.php:36
 msgid "Security check failed, invalid human verification field."
-msgstr ""
-"Beveiligingscontrole is mislukt, ongeldig veld voor menselijke verificatie."
+msgstr "De verificatie is niet correct."
 
 #: data-request.php:39 includes/data-request.php:39
 msgid ""
 "Request type invalid, please refresh this page and try to submit the form "
 "again."
 msgstr ""
-"Ongeldig aanvraagtype, vernieuw deze pagina en probeer het formulier opnieuw "
-"in te dienen."
+"Uw aanvraag is mislukt. Ververs deze pagina en vul het formulier opnieuw in."
 
 #: data-request.php:43 includes/data-request.php:43
 msgid "All fields are required."
@@ -61,40 +59,38 @@ msgstr "Alle velden zijn verplicht."
 #: data-request.php:50 includes/data-request.php:50
 msgid ""
 "Unable to initiate confirmation request. Please contact the administrator."
-msgstr ""
-"Kan bevestigings verzoek niet initiëren. Neem contact op met de beheerder."
+msgstr "Uw verzoek is mislukt. Neem contact op met de beheerder."
 
 #: public/enqueues.php:24 public/public.php:24
 msgid ""
 "Your enquiry have been submitted. Check your email to validate your data "
 "request."
 msgstr ""
-"Uw aanvraag is ingediend. Controleer uw e-mail om uw gegevens verzoek te "
-"valideren."
+"Uw aanvraag is gelukt. Een bevestiging is naar uw e-mail adres gestuurd."
 
 #: public/enqueues.php:25 public/public.php:25
 msgid "Some errors occurred:"
-msgstr "Er zijn enkele fouten opgetreden:"
+msgstr "Verzenden mislukt:"
 
 #: public/hook.php:34
 msgid "Select your request:"
-msgstr "Selecteer uw aanvraag:"
+msgstr "Selecteer actie:"
 
 #: public/hook.php:35
 msgid "Export Personal Data"
-msgstr "Persoonlijke gegevens exporteren"
+msgstr "Uw gegevens exporteren"
 
 #: public/hook.php:36
 msgid "Remove Personal Data"
-msgstr "Persoonlijke gegevens verwijderen"
+msgstr "Uw gegevens verwijderen"
 
 #: public/hook.php:37
 msgid "Your email address (required)"
-msgstr "Uw e-mailadres (verplicht)"
+msgstr "Uw e-mailadres *"
 
 #: public/hook.php:38
 msgid "Human verification (required):"
-msgstr "Menselijke verificatie (vereist):"
+msgstr "Verificatie *"
 
 #: public/hook.php:39
 msgid "Send Request"
