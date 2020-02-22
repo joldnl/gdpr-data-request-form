@@ -22,6 +22,14 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
+
+// Load plugin textdomain
+function gdpr_plugin_load_textdomain() {
+    load_plugin_textdomain( 'gdpr-data-request-form', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
+}
+add_action( 'plugins_loaded', 'gdpr_plugin_load_textdomain' );
+
+
 /**
  * Public
  */
