@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: GDPR Data Request Form\n"
+"POT-Creation-Date: 2020-02-22 13:09+0100\n"
+"PO-Revision-Date: 2020-02-22 13:16+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: gdpr-data-request-form.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: nl_NL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: data-request.php:24 includes/data-request.php:24
+msgid ""
+"The request can’t be processed on this website. This feature requires "
+"WordPress 4.9.6 at least."
+msgstr ""
+"De aanvraag kan niet worden verwerkt op deze website. Voor deze functie is "
+"minstens WordPress 4.9.6 vereist."
+
+#: data-request.php:30 includes/data-request.php:30
+msgid ""
+"Security check failed, please refresh this page and try to submit the form "
+"again."
+msgstr ""
+"Beveiligingscontrole is mislukt, vernieuw deze pagina en probeer het "
+"formulier opnieuw te verzenden."
+
+#: data-request.php:33 includes/data-request.php:33
+msgid "This is not a valid email address."
+msgstr "Dit is geen geldig e-mailadres."
+
+#: data-request.php:36 includes/data-request.php:36
+msgid "Security check failed, invalid human verification field."
+msgstr ""
+"Beveiligingscontrole is mislukt, ongeldig veld voor menselijke verificatie."
+
+#: data-request.php:39 includes/data-request.php:39
+msgid ""
+"Request type invalid, please refresh this page and try to submit the form "
+"again."
+msgstr ""
+"Ongeldig aanvraagtype, vernieuw deze pagina en probeer het formulier opnieuw "
+"in te dienen."
+
+#: data-request.php:43 includes/data-request.php:43
+msgid "All fields are required."
+msgstr "Alle velden zijn verplicht."
+
+#: data-request.php:50 includes/data-request.php:50
+msgid ""
+"Unable to initiate confirmation request. Please contact the administrator."
+msgstr ""
+"Kan bevestigings verzoek niet initiëren. Neem contact op met de beheerder."
+
+#: public/enqueues.php:24 public/public.php:24
+msgid ""
+"Your enquiry have been submitted. Check your email to validate your data "
+"request."
+msgstr ""
+"Uw aanvraag is ingediend. Controleer uw e-mail om uw gegevens verzoek te "
+"valideren."
+
+#: public/enqueues.php:25 public/public.php:25
+msgid "Some errors occurred:"
+msgstr "Er zijn enkele fouten opgetreden:"
+
+#: public/hook.php:34
+msgid "Select your request:"
+msgstr "Selecteer uw aanvraag:"
+
+#: public/hook.php:35
+msgid "Export Personal Data"
+msgstr "Persoonlijke gegevens exporteren"
+
+#: public/hook.php:36
+msgid "Remove Personal Data"
+msgstr "Persoonlijke gegevens verwijderen"
+
+#: public/hook.php:37
+msgid "Your email address (required)"
+msgstr "Uw e-mailadres (verplicht)"
+
+#: public/hook.php:38
+msgid "Human verification (required):"
+msgstr "Menselijke verificatie (vereist):"
+
+#: public/hook.php:39
+msgid "Send Request"
+msgstr "Verzoek versturen"
+
+#: public/hook.php:102
+msgid "This plugin requires WordPress 4.9.6."
+msgstr "Deze plugin vereist WordPress 4.9.6 of nieuwer."
+
+#: public/js/block.js:13
+msgid "Privacy Data Request Form"
+msgstr "Aanvraagformulier privacygegevens"
+
+#: public/js/block.js:16
+msgid "form"
+msgstr "formulier"
+
+#: public/js/block.js:16
+msgid "data"
+msgstr "gegevens"
+
+#: public/js/block.js:16
+msgid "request"
+msgstr "aanvraag"
+
+#: public/js/block.js:48
+msgid "Privacy Data request form"
+msgstr "Aanvraagformulier privacygegevens"
+
+#: public/js/block.js:58
+msgid "This block displays a Privacy Data Request Form."
+msgstr ""
+"In dit blok wordt een aanvraagformulier voor privacygegevens weergegeven."
+
+#: public/js/block.js:68
+msgid ""
+"By default, the form shows both export and remove Data Request options (it’s "
+"up to the visitor). You can set it either to \"both\", \"export\" or \"remove"
+"\"."
+msgstr ""
+"Standaard toont het formulier zowel \"exporteer\" als \"verwijder\" "
+"gegevensaanvraag (die keuze is aan de bezoeker). U kunt deze instellen op "
+"\"beide\", \"alleen exporteren\" of \"alleen verwijderen\"."
+
+#: public/js/block.js:85
+msgid "Request type:"
+msgstr "Type aanvraag:"
+
+#: public/js/block.js:92 public/widget.php:70
+msgid "Both Export and Remove"
+msgstr "Zowel exporteren als verwijderen"
+
+#: public/js/block.js:93 public/widget.php:71
+msgid "Data Export form only"
+msgstr "Alleen gegevens exporteren"
+
+#: public/js/block.js:94 public/widget.php:72
+msgid "Data Remove form only"
+msgstr "Alleen gegevens verwijderen"
+
+#: public/widget.php:60
+msgid "Optional widget title:"
+msgstr "Optionele widget titel:"
+
+#: public/widget.php:64
+msgid "Optional widget description:"
+msgstr "Optionele widget beschrijving:"
+
+#. Plugin Name of the plugin/theme
+msgid "GDPR Data Request Form"
+msgstr "GDPR Gegevens Aanvraagformulier"
+
+#. Plugin URI of the plugin/theme
+msgid "https://jeanbaptisteaudras.com/gdpr-data-request-form"
+msgstr "https://jeanbaptisteaudras.com/gdpr-data-request-form"
+
+#. Description of the plugin/theme
+msgid ""
+"Use WordPress Core GDPR tools to build front-end Personal Data export/"
+"erasure forms (includes Widget, Gutenberg Block, shortcode & Hooks)."
+msgstr ""
+"Gebruik WordPress' ingebouwde GDPR tools met een front-end formulier om "
+"persoonlijke gegevens te verwijderen of te exporteren (inclusief widget, "
+"gutenberg blok, shortcode & hooks)."
+
+#. Author of the plugin/theme
+msgid "audrasjb"
+msgstr "audrasjb"
+
+#. Author URI of the plugin/theme
+msgid "https://jeanbaptisteaudras.com"
+msgstr "https://jeanbaptisteaudras.com"
